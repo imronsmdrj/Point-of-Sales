@@ -10,6 +10,7 @@
    <tr>
       <th style="width:200px;"></th>
       <th>Nama Barang</th>
+      <th>Nama Barang</th>
       <th>Satuan</th>
       <th>Harga(Rp)</th>
       <th>Jumlah</th>

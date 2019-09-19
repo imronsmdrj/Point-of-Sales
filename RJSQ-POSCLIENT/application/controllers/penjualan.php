@@ -75,10 +75,10 @@ class Penjualan extends CI_Controller{
         $this->load->view('content/v_detail_supplier',$data);
 	}
 	
-		function get_id_kode_barang(){
-		$bid=$this->input->post('bid');
-		$this->m_apps->get_id_kode_barang($bid);
-		}
+		// function get_id_kode_barang(){
+		// $bid=$this->input->post('bid');
+		// $this->m_apps->get_id_kode_barang($bid);
+		// }
 
 	// INSERT DATA
 

@@ -207,13 +207,13 @@ class M_apps extends CI_Model{
         return $bstok;
     }
 
-    public function get_id_kode_barang($bid)
-    {
-        $q = $this->db->query("
-        select * from barang where bid = $bid")->result_array();
-        $new = json_encode($q);
-        echo $new;
-    }
+    // public function get_id_kode_barang($bid)
+    // {
+    //     $q = $this->db->query("
+    //     select * from barang where bid = $bid")->result_array();
+    //     $new = json_encode($q);
+    //     echo $new;
+    // }
 
 //RETUR
 

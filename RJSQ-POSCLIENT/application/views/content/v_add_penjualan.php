@@ -153,10 +153,7 @@
                         }
                         ?>
                     </select>
-                <!-- <label for="">Kode Barang</label>
-                <input id="bid" type="text" class="form-control" name="bid" data-live-search="true" placeholder="Kode Barang" required></input> -->
-    <!-- <label for="">Nama Barang</label id="bnama"> -->
-    <!-- <input id="bnama_edit" type="text" class="form-control" name="bnama_edit" data-live-search="true" placeholder="Kode Barang" required></input> -->
+              
                 </div>
             </div>
             <div id="detail_barang"></div>

@@ -3,12 +3,12 @@ if(isset($detail_barang)){
     foreach($detail_barang as $row){
         ?>
                 <br>
-                <!-- <div class="form-group mb-3">
+                <div class="form-group mb-3">
                 <div class="input-group input-group-alternative">
                     <label class="control-label">Kode Barang</label>
                 </div>
                         <input name="djual_bid" class="form-control" type="text" value="<?php echo $row->bid; ?>" readonly="readonly">
-                </div> -->
+                </div>
 
 
                 <div class="form-group mb-3">

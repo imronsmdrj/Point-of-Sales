@@ -8,11 +8,11 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
 	$bid = $_POST['bid'];
 	$bnama = $_POST['bnama'];
 	$bsatuan = $_POST['bsatuan'];
-	$bharga_pokok = $_POST['bharga_pokok'];
 	$bharga_jual = $_POST['bharga_jual'];
+	$bharga_jual_grosir = $_POST['bharga_jual_grosir'];
 	$bstok = $_POST['bstok'];
 	
-	$sql = "INSERT INTO barang (bid,bnama,bsatuan,bharga_pokok,bharga_jual,bstok) VALUES ('$bid','$bnama','$bsatuan','$bharga_pokok','$bharga_jual','$bstok')";
+	$sql = "INSERT INTO barang (bid,bnama,bsatuan,bharga_jual,bharga_jual_grosir,bstok) VALUES ('$bid','$bnama','$bsatuan','$bharga_jual','$bharga_jual_grosir','$bstok')";
 
 	require_once('connect.php');
 
@@ -25,7 +25,28 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
 	mysqli_close($conn);
 }
 
+// require_once('connect.php');$bid = $_POST['bid'];
 
+// $bnama = $_POST['bnama'];
+// $bsatuan = $_POST['bsatuan'];
+// $bharga_pokok = $_POST['bharga_pokok'];
+// $bharga_jual = $_POST['bharga_jual'];
+// $bstok = $_POST['bstok'];
+
+// 	if(!$bid || !$bnama || !$bsatuan || !$bharga_pokok || !$bharga_jual || !$bstok){
+
+//   		echo json_encode(array('message'=>'required field is empty.'));
+	
+// 	}else{
+// 		$query = mysqli_query($conn, "INSERT INTO barang VALUES ('$bid','$bnama','$bsatuan','$bharga_pokok','$bharga_jual','$bstok')");
+// 		if($query){
+// 			echo json_encode(array('message'=>'barang data successfully added.'));
+//   }else{
+//     echo json_encode(array('message'=>'barang data failed to add.'));
+//   }
+// }
+
+?>
 
 
 
