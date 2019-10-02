@@ -1,3 +1,4 @@
 # Point-of-Sales
 
-kalo mau coba aplikasinya, kontak aja ya nanti databasenya di kasih.
+PHP Version 5.6.24
+Framework CodeIgniter Version 3
